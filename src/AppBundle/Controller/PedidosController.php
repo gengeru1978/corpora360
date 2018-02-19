@@ -51,10 +51,10 @@ class PedidosController extends Controller
      * @Route("/mostrar/")
      */
 
-    public function mostrarPedidos(){
+    public function mostrarPedidos($id){
         $pedidos = $this->getDoctrine()
             ->getRepository('AppBundle:Pedidos')
-            ->findAll();
+            ->findBy($id);
         if (!$pedidos) {
             throw $this->createNotFoundException(
                 'No se encontraron entradas'

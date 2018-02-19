@@ -145,3 +145,11 @@ b4d839,127.0.0.1,GET,http://localhost:8000/mostrar/,1519065753,,500
 38728f,127.0.0.1,GET,http://localhost:8000/,1519066054,,200
 84f064,127.0.0.1,GET,http://localhost:8000/mostrar/,1519075958,46974b,200
 46974b,127.0.0.1,GET,http://localhost:8000/mostrar/,1519075958,,500
+dc5f78,127.0.0.1,GET,http://localhost:8000/mostrar/,1519076567,56e5c7,200
+56e5c7,127.0.0.1,GET,http://localhost:8000/mostrar/,1519076567,,500
+053796,127.0.0.1,GET,http://localhost:8000/mostrar/,1519076686,32e645,200
+32e645,127.0.0.1,GET,http://localhost:8000/mostrar/,1519076686,,500
+8448b3,127.0.0.1,GET,http://localhost:8000/mostrar/,1519076762,29e9b2,200
+29e9b2,127.0.0.1,GET,http://localhost:8000/mostrar/,1519076762,,500
+174f71,127.0.0.1,GET,http://localhost:8000/mostrar/,1519077073,961fc9,200
+961fc9,127.0.0.1,GET,http://localhost:8000/mostrar/,1519077073,,500
