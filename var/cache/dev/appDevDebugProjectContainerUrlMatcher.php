@@ -119,9 +119,24 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             return array (  '_controller' => 'AppBundle\\Controller\\GenusController::showAction',  '_route' => 'app_genus_show',);
         }
 
+        // app_pedidos_create
+        if ('/admin/nuevo-pedido' === $pathinfo) {
+            return array (  '_controller' => 'AppBundle\\Controller\\PedidosController::createAction',  '_route' => 'app_pedidos_create',);
+        }
+
+        // blog_list
+        if (0 === strpos($pathinfo, '/pedidos') && preg_match('#^/pedidos(?:/(?P<page>\\d+))?$#s', $pathinfo, $matches)) {
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'blog_list')), array (  'page' => 1,  '_controller' => 'AppBundle\\Controller\\PedidosController::listAction',));
+        }
+
         // app_pedidos_mostrarpedidos
-        if ('/pedidos' === $pathinfo) {
-            return array (  '_controller' => 'AppBundle\\Controller\\PedidosController::mostrarPedidos',  '_route' => 'app_pedidos_mostrarpedidos',);
+        if ('/mostrar' === $trimmedPathinfo) {
+            $ret = array (  '_controller' => 'AppBundle\\Controller\\PedidosController::mostrarPedidos',  '_route' => 'app_pedidos_mostrarpedidos',);
+            if (substr($pathinfo, -1) !== '/') {
+                return array_replace($ret, $this->redirect($rawPathinfo.'/', 'app_pedidos_mostrarpedidos'));
+            }
+
+            return $ret;
         }
 
         throw 0 < count($allow) ? new MethodNotAllowedException(array_unique($allow)) : new ResourceNotFoundException();
