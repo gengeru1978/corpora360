@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="AppBundle\Entity\Ped2prod" table="ped2prod">
+    <indexes>
+      <index name="id_pedido" columns="id_pedido"/>
+      <index name="id_producto" columns="id_producto"/>
+    </indexes>
+    <id name="idrel" type="integer" column="idrel">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="idPedido" type="integer" column="id_pedido" nullable="false">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+    <field name="idProducto" type="integer" column="id_producto" nullable="false">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+  </entity>
+</doctrine-mapping>

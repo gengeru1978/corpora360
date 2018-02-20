@@ -1,0 +1,50 @@
+<?php
+
+namespace AppBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Pedidos
+ *
+ * @ORM\Table(name="pedidos", indexes={@ORM\Index(name="id_cliente", columns={"id_cliente"})})
+ * @ORM\Entity
+ */
+class Pedidos
+{
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="importe", type="integer", nullable=false)
+     */
+    private $importe;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="fecha_creacion", type="date", nullable=false)
+     */
+    private $fechaCreacion;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id_pedido", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="IDENTITY")
+     */
+    private $idPedido;
+
+    /**
+     * @var \AppBundle\Entity\Clientes
+     *
+     * @ORM\ManyToOne(targetEntity="AppBundle\Entity\Clientes")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="id_cliente", referencedColumnName="id_cliente")
+     * })
+     */
+    private $idCliente;
+
+
+}
+

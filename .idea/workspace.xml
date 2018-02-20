@@ -8776,6 +8776,196 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Util/DeprecationCollector.php" />
       <change beforePath="" afterPath="$PROJECT_DIR$/vendor/twig/twig/src/Util/TemplateDirIterator.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Install/PostInstallScript.php" afterPath="$PROJECT_DIR$/src/AppBundle/Install/PostInstallScript.php" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php.meta" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php.meta" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml.meta" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml.meta" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/classes.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/classes.php.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/00/00e8e972563ae91f87a9354982af6d46497f242d336c328cd86cc1105eaa4f54.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/0b/0bec8fc64bb6d05d93e8d09a649e9b0b6b9265b6f40d13540bb080805b2f4180.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/11/11e2f55b8f2e1d1baeffa0ae9b540f0e51dbcebc784e1cbc3766ca7280d46439.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/11/11fb786467476cc34dad70c4fd763442152c54f88bd79bedf2a2a77825de9935.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/16/168a964f8ab1d8a00687f6cfcd5d5d7845e96d5fba9fb233eb41aa2163984ef2.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/16/16d74c3a2d6b362a4e80881c02d7ed1cc47833f40db7733604df5bb6b576be65.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/19/19d58eca7a8043e5e0dfb07870f2a4bbfac73fb97a06099297d35928e1c9d299.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/1b/1bd0868450600fa5d9f8b7bb34585b7422a97b60cfdf124b6c357df15d8c4b0e.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/29/29f3b2c75c9afd66daed16e431e1f3cb91d82cdb90e0dc3b0f17262282f1491f.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/2e/2ed7419b43e5b360c267b881b66fff19139eb151fb649f920e9a6f775d9f0cd2.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/3b/3b3637522f1dea63a83b6bb93eed98414828146c0071ec5e3572c5cefca70a76.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/3f/3f93c64e32c602ac84e3950a72d2fa3ae0deb0969f16da1650b003d9411557b1.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/40/40acb3177889ba8f89208bf0990e3251b1952f711fa20e49c0a9b8b4c7146877.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/41/4130af047afe51ba37980eb82cbf8d8656cac5ec4d615e492bf720dbca3d509d.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/43/43d3eaac94bcc2e519f11a2c06aede10be0ee6e5ecd718ad5760fce84af00534.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/49/49125a19a59f0787ebed2369aadc1e04856501608ff7349c67da41a06033be07.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/4c/4c516ac79c8aaa687682e17a4a49f150877640805ed64adb459c4198033748dc.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/4c/4caa69a1478b63be3c435c7c744625450ee67a973c2adfd4bbc6c2e5cb63b0cd.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/4c/4cd27bb039b3fac8db5ada9e6102b57c947fa04cd61e0f25ad14ff8736ca43ad.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/5a/5af0c2a5a9044ee35e8f8ae519bbb9f900f3156ace1e454b4a87b737a2c8b1f1.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/5f/5f52e6dc5c4d250a4f8233dee133387cc132a3e5627bcc9e208c3f8a92357c06.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/65/65ef19bf89a730e4081ec1ba7cb8e69c5c93042d20548014f727e9d36fede4c7.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/6e/6ec7f2685eb9f834c576b752c81bab725681f9bb2158a21c963dd97c62a7bb93.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/6e/6ee524f772651c4b01126bb0ed089620e8b6aafe9b95a952d3fe2015e140f3bf.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/71/714062704f2dbc5436f95aa9bbeb68df45c72a71222e570cc16ecb04efe614da.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/74/7422da0d8a005b25326e2fcad276da4a0124e095752c1a11b7173997df99adbd.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/75/75f3d8ee8588336f6d596a6eb5a4c7f9f38eb4958e639d9e5968caea367c6c29.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/79/79555d05ff0005ec13d214ae701f9de8fd764e5bde447e49bbc799a359075bef.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/7b/7b77e58111b5345f14a776775dc2da324cb5e87549d33d79d7b908bb08f72f00.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/87/87063e64ef5288914b9d4e3f89eda7d493bc33d40407faff57f01ce40b09afc3.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/88/8816bb67d6e7a6ffe5dd008eed891941788234a07a9e66c6ede5284ba9701123.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/8d/8d0934d493da05fe8cd783c2f75d865f62b3302cb94651b48c6b31ef2d129d01.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/91/91c6ece9a05eca060d69687bbcc02f9853c0066240afdd7796e1c97c23b642ea.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/92/92c7aaa53e703e5cef8270cdbbd2711f0e57d4ebdd4167e10f8269a718eaa792.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/95/95307ef2d99a6734c830bad8e811d74423bdf0afd4dc2fe5d45f20d87b990fdd.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/95/954af14df33a869755ae3a4a47332d0d044c0f0e5cb5569bcf05cbfdbc880b29.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/9b/9b462e656206696a742e2314adff8eec95d64288942b81a69b24d21ad58151fd.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/ab/ab4ac5b9f7708c4ba4464c1e18706d2123e7068a1b2ad96f546071af4b71e417.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/b3/b3d865398474c116ec6748be35ad2939f71bb8ec4cd8468330069e9b53935290.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/b7/b73f47c8a66ec2ebee5bc62b4f49f872128cf697ee2513807aacdc96e9457f62.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/bf/bf3f8b2bab245d50099b7ba5dff0ef3087425107699d9db2013305e0bd875f0e.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/c5/c50385159da25517a4e155cf6cbabf5717d7c0e31f164b77989501901d84e4c8.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/c5/c561f74ccfa81aaaf9923d8efba996e6c61347e6458372fecd86095eecda2513.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/c6/c63be525a48e514133b2f134d7c0f927526545ebc44419eebf0872e0077a3061.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/ca/ca25586c0f3729c595c9cb65f09ced5388d0ed4fc943f2b9186b52cc25d2d7e9.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/cb/cb6835878ead30fc1c171e96649ec22067e96f5138e47471736edcaa574f895b.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/cf/cf47885c27444eba311c145ac8e3f9cea1fd0ce8a0754c3ee2e42116e9845ead.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/d1/d188886b93515f5d20f6f3ead840ffe90a3983ce8a53e44651e5226873011121.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/d1/d1fd50a53a94c7cc911646f39eec442c1ff81c4eff3bb1cc1607430a2f27107c.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/de/de68fa05210979faf02b3d4e261866042dfb94d50535c901f216b403100bdf6b.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/de/de9c9f919fa45e27e1f02cfb0f7243442e6cbb1e5d3c5afb4b599b2581f06f29.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/e2/e23c5e5d4366114044f72ff6b280413913c6690bd9c78755c17ebba30cd089cf.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/e3/e377d87cc29f4366e3647ac5f387ef7a14704c63ad399be1f76c0c25dcc408c4.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/fa/fa5f2ee50727dd25a0efdde77f3d19aa932fb9c12d74aa9226542853d533caba.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/fc/fcbe1098d7f93596bee073cea1c0305ae93d84c7222de3cafe80c675e3a4f46c.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/logs/dev.log" afterPath="$PROJECT_DIR$/var/logs/dev.log" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/sb-admin-2.js" afterPath="$PROJECT_DIR$/web/assets/js/sb-admin-2.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/bootstrap-social/bootstrap-social.css" afterPath="$PROJECT_DIR$/web/assets/plugins/bootstrap-social/bootstrap-social.css" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/bootstrap-social/bootstrap-social.less" afterPath="$PROJECT_DIR$/web/assets/plugins/bootstrap-social/bootstrap-social.less" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/bootstrap-social/bootstrap-social.scss" afterPath="$PROJECT_DIR$/web/assets/plugins/bootstrap-social/bootstrap-social.scss" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/web/assets/plugins/bootstrap/css/bootstrap.css" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/web/assets/plugins/bootstrap/css/bootstrap.min.css" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/web/assets/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/web/assets/plugins/bootstrap/js/bootstrap.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/web/assets/plugins/bootstrap/js/bootstrap.min.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables-plugins/dataTables.bootstrap.css" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables-plugins/dataTables.bootstrap.css" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables-plugins/dataTables.bootstrap.js" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables-plugins/dataTables.bootstrap.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables-plugins/dataTables.bootstrap.min.js" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables-plugins/dataTables.bootstrap.min.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables-plugins/index.html" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables-plugins/index.html" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables-responsive/dataTables.responsive.css" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables-responsive/dataTables.responsive.css" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables-responsive/dataTables.responsive.js" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables-responsive/dataTables.responsive.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables-responsive/dataTables.responsive.scss" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables-responsive/dataTables.responsive.scss" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables/css/dataTables.bootstrap.css" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables/css/dataTables.bootstrap.css" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables/css/dataTables.bootstrap.min.css" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables/css/dataTables.bootstrap.min.css" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables/css/dataTables.bootstrap4.css" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables/css/dataTables.bootstrap4.css" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables/css/dataTables.bootstrap4.min.css" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables/css/dataTables.bootstrap4.min.css" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables/css/dataTables.foundation.css" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables/css/dataTables.foundation.css" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables/css/dataTables.foundation.min.css" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables/css/dataTables.foundation.min.css" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables/css/dataTables.jqueryui.css" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables/css/dataTables.jqueryui.css" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables/css/dataTables.jqueryui.min.css" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables/css/dataTables.jqueryui.min.css" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables/css/dataTables.material.css" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables/css/dataTables.material.css" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables/css/dataTables.material.min.css" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables/css/dataTables.material.min.css" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables/css/dataTables.semanticui.css" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables/css/dataTables.semanticui.css" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables/css/dataTables.semanticui.min.css" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables/css/dataTables.semanticui.min.css" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables/css/dataTables.uikit.css" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables/css/dataTables.uikit.css" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables/css/dataTables.uikit.min.css" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables/css/dataTables.uikit.min.css" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables/css/jquery.dataTables.css" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables/css/jquery.dataTables.css" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables/css/jquery.dataTables.min.css" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables/css/jquery.dataTables.min.css" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables/css/jquery.dataTables_themeroller.css" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables/css/jquery.dataTables_themeroller.css" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables/js/dataTables.bootstrap.js" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables/js/dataTables.bootstrap.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables/js/dataTables.bootstrap.min.js" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables/js/dataTables.bootstrap.min.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables/js/dataTables.bootstrap4.js" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables/js/dataTables.bootstrap4.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables/js/dataTables.bootstrap4.min.js" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables/js/dataTables.bootstrap4.min.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables/js/dataTables.foundation.js" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables/js/dataTables.foundation.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables/js/dataTables.foundation.min.js" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables/js/dataTables.foundation.min.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables/js/dataTables.jqueryui.js" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables/js/dataTables.jqueryui.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables/js/dataTables.jqueryui.min.js" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables/js/dataTables.jqueryui.min.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables/js/dataTables.material.js" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables/js/dataTables.material.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables/js/dataTables.material.min.js" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables/js/dataTables.material.min.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables/js/dataTables.semanticui.js" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables/js/dataTables.semanticui.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables/js/dataTables.semanticui.min.js" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables/js/dataTables.semanticui.min.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables/js/dataTables.uikit.js" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables/js/dataTables.uikit.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables/js/dataTables.uikit.min.js" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables/js/dataTables.uikit.min.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables/js/jquery.dataTables.js" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables/js/jquery.dataTables.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables/js/jquery.dataTables.min.js" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables/js/jquery.dataTables.min.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/datatables/js/jquery.js" afterPath="$PROJECT_DIR$/web/assets/plugins/datatables/js/jquery.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/flot-tooltip/jquery.flot.tooltip.js" afterPath="$PROJECT_DIR$/web/assets/plugins/flot-tooltip/jquery.flot.tooltip.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/flot-tooltip/jquery.flot.tooltip.min.js" afterPath="$PROJECT_DIR$/web/assets/plugins/flot-tooltip/jquery.flot.tooltip.min.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/flot-tooltip/jquery.flot.tooltip.source.js" afterPath="$PROJECT_DIR$/web/assets/plugins/flot-tooltip/jquery.flot.tooltip.source.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/flot/excanvas.js" afterPath="$PROJECT_DIR$/web/assets/plugins/flot/excanvas.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/flot/jquery.colorhelpers.js" afterPath="$PROJECT_DIR$/web/assets/plugins/flot/jquery.colorhelpers.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/flot/jquery.flot.canvas.js" afterPath="$PROJECT_DIR$/web/assets/plugins/flot/jquery.flot.canvas.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/flot/jquery.flot.categories.js" afterPath="$PROJECT_DIR$/web/assets/plugins/flot/jquery.flot.categories.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/flot/jquery.flot.crosshair.js" afterPath="$PROJECT_DIR$/web/assets/plugins/flot/jquery.flot.crosshair.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/flot/jquery.flot.errorbars.js" afterPath="$PROJECT_DIR$/web/assets/plugins/flot/jquery.flot.errorbars.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/flot/jquery.flot.fillbetween.js" afterPath="$PROJECT_DIR$/web/assets/plugins/flot/jquery.flot.fillbetween.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/flot/jquery.flot.image.js" afterPath="$PROJECT_DIR$/web/assets/plugins/flot/jquery.flot.image.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/flot/jquery.flot.js" afterPath="$PROJECT_DIR$/web/assets/plugins/flot/jquery.flot.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/flot/jquery.flot.navigate.js" afterPath="$PROJECT_DIR$/web/assets/plugins/flot/jquery.flot.navigate.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/flot/jquery.flot.pie.js" afterPath="$PROJECT_DIR$/web/assets/plugins/flot/jquery.flot.pie.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/flot/jquery.flot.resize.js" afterPath="$PROJECT_DIR$/web/assets/plugins/flot/jquery.flot.resize.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/flot/jquery.flot.selection.js" afterPath="$PROJECT_DIR$/web/assets/plugins/flot/jquery.flot.selection.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/flot/jquery.flot.stack.js" afterPath="$PROJECT_DIR$/web/assets/plugins/flot/jquery.flot.stack.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/flot/jquery.flot.symbol.js" afterPath="$PROJECT_DIR$/web/assets/plugins/flot/jquery.flot.symbol.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/flot/jquery.flot.threshold.js" afterPath="$PROJECT_DIR$/web/assets/plugins/flot/jquery.flot.threshold.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/flot/jquery.flot.time.js" afterPath="$PROJECT_DIR$/web/assets/plugins/flot/jquery.flot.time.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/flot/jquery.js" afterPath="$PROJECT_DIR$/web/assets/plugins/flot/jquery.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/font-awesome/HELP-US-OUT.txt" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/HELP-US-OUT.txt" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/css/font-awesome.css" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/font-awesome/css/font-awesome.css.map" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/css/font-awesome.css.map" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/css/font-awesome.min.css" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/font-awesome/less/animated.less" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/less/animated.less" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/font-awesome/less/bordered-pulled.less" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/less/bordered-pulled.less" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/font-awesome/less/core.less" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/less/core.less" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/font-awesome/less/extras.less" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/less/extras.less" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/font-awesome/less/fixed-width.less" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/less/fixed-width.less" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/font-awesome/less/font-awesome.less" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/less/font-awesome.less" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/font-awesome/less/icons.less" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/less/icons.less" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/font-awesome/less/larger.less" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/less/larger.less" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/font-awesome/less/list.less" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/less/list.less" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/font-awesome/less/mixins.less" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/less/mixins.less" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/font-awesome/less/path.less" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/less/path.less" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/font-awesome/less/rotated-flipped.less" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/less/rotated-flipped.less" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/font-awesome/less/screen-reader.less" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/less/screen-reader.less" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/font-awesome/less/spinning.less" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/less/spinning.less" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/font-awesome/less/stacked.less" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/less/stacked.less" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/font-awesome/less/variables.less" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/less/variables.less" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/font-awesome/scss/_animated.scss" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/scss/_animated.scss" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/font-awesome/scss/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/scss/_bordered-pulled.scss" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/font-awesome/scss/_core.scss" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/scss/_core.scss" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/font-awesome/scss/_extras.scss" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/scss/_extras.scss" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/font-awesome/scss/_fixed-width.scss" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/scss/_fixed-width.scss" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/font-awesome/scss/_icons.scss" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/scss/_icons.scss" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/font-awesome/scss/_larger.scss" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/scss/_larger.scss" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/font-awesome/scss/_list.scss" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/scss/_list.scss" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/font-awesome/scss/_mixins.scss" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/scss/_mixins.scss" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/font-awesome/scss/_path.scss" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/scss/_path.scss" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/font-awesome/scss/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/scss/_rotated-flipped.scss" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/font-awesome/scss/_screen-reader.scss" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/scss/_screen-reader.scss" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/font-awesome/scss/_spinning.scss" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/scss/_spinning.scss" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/font-awesome/scss/_stacked.scss" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/scss/_stacked.scss" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/font-awesome/scss/_variables.scss" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/scss/_variables.scss" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/font-awesome/scss/font-awesome.scss" afterPath="$PROJECT_DIR$/web/assets/plugins/font-awesome/scss/font-awesome.scss" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/jquery/jquery.js" afterPath="$PROJECT_DIR$/web/assets/plugins/jquery/jquery.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/jquery/jquery.min.js" afterPath="$PROJECT_DIR$/web/assets/plugins/jquery/jquery.min.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/metisMenu/metisMenu.css" afterPath="$PROJECT_DIR$/web/assets/plugins/metisMenu/metisMenu.css" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/metisMenu/metisMenu.js" afterPath="$PROJECT_DIR$/web/assets/plugins/metisMenu/metisMenu.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/metisMenu/metisMenu.min.css" afterPath="$PROJECT_DIR$/web/assets/plugins/metisMenu/metisMenu.min.css" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/metisMenu/metisMenu.min.js" afterPath="$PROJECT_DIR$/web/assets/plugins/metisMenu/metisMenu.min.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/morrisjs/morris.css" afterPath="$PROJECT_DIR$/web/assets/plugins/morrisjs/morris.css" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/morrisjs/morris.js" afterPath="$PROJECT_DIR$/web/assets/plugins/morrisjs/morris.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/morrisjs/morris.min.js" afterPath="$PROJECT_DIR$/web/assets/plugins/morrisjs/morris.min.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/raphael/raphael.js" afterPath="$PROJECT_DIR$/web/assets/plugins/raphael/raphael.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/plugins/raphael/raphael.min.js" afterPath="$PROJECT_DIR$/web/assets/plugins/raphael/raphael.min.js" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -8821,7 +9011,7 @@
       <file leaf-file-name="GenusController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="288">
               <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
               <folding>
                 <element signature="e#6#94#0#PHP" expanded="true" />
@@ -8831,84 +9021,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/35f62af6-f344-47c8-845a-78791768ab87/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clientes" pinned="false" current-in-tab="false">
-        <entry file="das://table:/36c72db1/35f62af6-f344-47c8-845a-78791768ab87/corpora360.clientes">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pedidos" pinned="false" current-in-tab="false">
-        <entry file="das://table:/36c72db1/35f62af6-f344-47c8-845a-78791768ab87/corpora360.pedidos">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pedidos.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Pedidos.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1224">
-              <caret line="33" column="44" lean-forward="false" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Productos.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Productos.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SymfonyRequirements.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/var/SymfonyRequirements.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="709" column="101" lean-forward="false" selection-start-line="709" selection-start-column="101" selection-end-line="709" selection-end-column="101" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PedidosController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PedidosController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/PedidosController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="56" column="24" lean-forward="false" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+            <state relative-caret-position="609">
+              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding>
                 <element signature="e#6#152#0#PHP" expanded="true" />
-                <element signature="e#187#244#0#PHP" expanded="true" />
-                <element signature="e#1469#1488#1#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Clientes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Clientes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-619">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -8916,7 +9036,7 @@
       <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="252">
               <caret line="14" column="82" lean-forward="false" selection-start-line="14" selection-start-column="82" selection-end-line="14" selection-end-column="82" />
               <folding />
             </state>
@@ -8935,6 +9055,7 @@
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/PostInstallScript.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/PedidosController.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Pedidos.php" />
       </list>
     </option>
   </component>
@@ -8970,8 +9091,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -9001,6 +9120,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -9053,7 +9174,8 @@
       <workItem from="1518948082583" duration="1387000" />
       <workItem from="1518950510567" duration="378000" />
       <workItem from="1518950902025" duration="433000" />
-      <workItem from="1518951345746" duration="19896000" />
+      <workItem from="1518951345746" duration="20934000" />
+      <workItem from="1519106196736" duration="19000" />
     </task>
     <task id="LOCAL-00001" summary="Carga inicial del repositorio corpora360">
       <created>1519059021276</created>
@@ -9076,11 +9198,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519077127688</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Carga inicial del repositorio corpora360">
+      <created>1519077233314</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1519077233314</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27893000" />
+    <option name="totallyTimeSpent" value="28950000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -9092,12 +9221,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1288" y="40" width="1296" height="1000" extended-state="6" />
+    <frame x="-1421" y="272" width="1375" height="876" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2703125" sideWeight="0.4958775" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2698182" sideWeight="0.4958775" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979977" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32979977" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -9107,10 +9234,12 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2703125" sideWeight="0.5041225" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39929327" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979977" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979977" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -9130,6 +9259,35 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="e#6#94#0#PHP" expanded="true" />
+            <element signature="e#130#189#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="82" lean-forward="false" selection-start-line="14" selection-start-column="82" selection-end-line="14" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/PedidosController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#152#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -9183,29 +9341,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1020">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/PostInstallScript.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-986">
-          <caret line="32" column="31" lean-forward="false" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/PostInstallScript.php" />
     <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="252">
           <caret line="14" column="82" lean-forward="false" selection-start-line="14" selection-start-column="82" selection-end-line="14" selection-end-column="82" />
           <folding />
         </state>
@@ -9213,7 +9362,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/GenusController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="288">
           <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding>
             <element signature="e#6#94#0#PHP" expanded="true" />
@@ -9222,69 +9371,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/35f62af6-f344-47c8-845a-78791768ab87/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/36c72db1/35f62af6-f344-47c8-845a-78791768ab87/corpora360.clientes">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/36c72db1/35f62af6-f344-47c8-845a-78791768ab87/corpora360.pedidos">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/PedidosController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="56" column="24" lean-forward="false" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
-          <folding>
-            <element signature="e#6#152#0#PHP" expanded="true" />
-            <element signature="e#187#244#0#PHP" expanded="true" />
-            <element signature="e#1469#1488#1#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Clientes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-619">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Pedidos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1224">
-          <caret line="33" column="44" lean-forward="false" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Productos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/35f62af6-f344-47c8-845a-78791768ab87/console.sql" />
+    <entry file="das://table:/36c72db1/35f62af6-f344-47c8-845a-78791768ab87/corpora360.clientes" />
+    <entry file="das://table:/36c72db1/35f62af6-f344-47c8-845a-78791768ab87/corpora360.pedidos" />
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Clientes.php" />
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Pedidos.php" />
     <entry file="file://$PROJECT_DIR$/var/SymfonyRequirements.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
           <caret line="709" column="101" lean-forward="false" selection-start-line="709" selection-start-column="101" selection-end-line="709" selection-end-column="101" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Productos.php" />
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/PedidosController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#152#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

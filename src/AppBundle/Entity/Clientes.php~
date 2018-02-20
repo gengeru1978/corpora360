@@ -1,0 +1,33 @@
+<?php
+
+namespace AppBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Clientes
+ *
+ * @ORM\Table(name="clientes")
+ * @ORM\Entity
+ */
+class Clientes
+{
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="nombre", type="string", length=64, nullable=false)
+     */
+    private $nombre;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id_cliente", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="IDENTITY")
+     */
+    private $idCliente;
+
+
+}
+
